@@ -14,6 +14,33 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     
+<pluginRepositories>
+    <pluginRepository>
+        <id>central</id>
+        <name>Central Repository</name>
+        <url>https://repo.maven.apache.org/maven2</url>
+        <layout>default</layout>
+        <snapshots>
+            <enabled>false</enabled>
+        </snapshots>
+        <releases>
+            <updatePolicy>never</updatePolicy>
+        </releases>
+    </pluginRepository>
+</pluginRepositories>
+
+<repositories>
+    <repository>
+        <id>central</id>
+        <name>Central Repository</name>
+        <url>https://repo.maven.apache.org/maven2</url>
+        <layout>default</layout>
+        <snapshots>
+            <enabled>false</enabled>
+        </snapshots>
+    </repository>
+</repositories>   
+    
     <dependencies>
         <dependency>
             <groupId>javax</groupId>
@@ -84,7 +111,7 @@
                     <configuration>
                         <type>runtime</type>
                         <properties>
-                            <cargo.hostname>localhost</cargo.hostname>
+                            <cargo.hostname>192.168.1.71</cargo.hostname>
                             <!--cargo.rmi.port>4848</cargo.rmi.port-->
                             <cargo.servlet.port>8080</cargo.servlet.port>
                             <cargo.remote.username>admin</cargo.remote.username>
