@@ -114,9 +114,9 @@
                             <cargo.hostname>192.168.1.71</cargo.hostname>
                             <!--cargo.rmi.port>4848</cargo.rmi.port-->
                             <cargo.servlet.port>8080</cargo.servlet.port>
-                            <cargo.remote.username>admin</cargo.remote.username>
-                            <!--cargo.remote.password>adminadmin</cargo.remote.password>
-                            <cargo.glassfish.domain.name>domain1</cargo.glassfish.domain.name-->
+                            <!--cargo.remote.username>admin</cargo.remote.username>
+                            <cargo.remote.password>adminadmin</cargo.remote.password-->
+                            <cargo.glassfish.domain.name>domain1</cargo.glassfish.domain.name>
                             <cargo.glassfish.adminPort>4848</cargo.glassfish.adminPort> 
                             <!--cargo.remote.timeout>6000000</cargo.remote.timeout-->     
                         </properties>
